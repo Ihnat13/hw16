@@ -1,0 +1,24 @@
+body{
+  margin: 0 0;
+}
+
+.wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 200px;
+  height: 100px;
+  filter: brightness(100%);
+}
+.btn:disabled {
+  background-color: #7f8c8d;
+  cursor: not-allowed;
+}
+.active {
+  filter: brightness(80%);
+}
